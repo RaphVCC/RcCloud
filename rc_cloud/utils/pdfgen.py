@@ -1,0 +1,3 @@
+"""PDF generation utilities (scaffold)."""
+
+

@@ -1,0 +1,3 @@
+"""Finance module package (scaffold)."""
+
+

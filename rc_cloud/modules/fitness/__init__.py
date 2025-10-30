@@ -1,0 +1,3 @@
+"""Fitness module package (scaffold)."""
+
+
