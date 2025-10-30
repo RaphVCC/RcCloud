@@ -7,9 +7,9 @@ from sqlalchemy.orm import Session
 
 from .models import Expense
 from .schemas import ExpenseCreate
-from core.helpers import safe_model_dump
-from database import get_db
-from google_sheets import update_sheet
+from rc_cloud.core.helpers import safe_model_dump
+from rc_cloud.database import get_db
+from rc_cloud.google_sheets import update_sheet
 
 
 router = APIRouter(prefix="/finance", tags=["Finance"])

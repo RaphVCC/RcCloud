@@ -4,12 +4,12 @@ from __future__ import annotations
 
 from fastapi import FastAPI
 
-from core.logger import configure_logging
-from core.security import verify_token
-from database import Base, engine
-from modules.fitness import routes as fitness_routes
-from modules.finance import routes as finance_routes
-from modules.automations import router as automations_router
+from rc_cloud.core.logger import configure_logging
+from rc_cloud.core.security import verify_token
+from rc_cloud.database import Base, engine
+from rc_cloud.modules.fitness import routes as fitness_routes
+from rc_cloud.modules.finance import routes as finance_routes
+from rc_cloud.modules.automations import router as automations_router
 
 
 configure_logging()
